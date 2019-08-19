@@ -118,7 +118,7 @@ public class TechJobs {
             {
                 String key = "location";
 
-                // TODO: Null checking, both for maps and values
+
                 String firstValue = first.get(key);
                 String secondValue = second.get(key);
                 return firstValue.compareTo(secondValue);
